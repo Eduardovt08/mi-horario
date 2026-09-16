@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Horario U</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">HORARIO UNIVERSITARIO</p>
+        <h1>Mi Horario U</h1>
+        <p class="subtitle">Periodo 2026 - 2027 CII</p>
+      </div>
+      <button id="themeBtn" class="theme-btn" title="Cambiar tema">🌙</button>
+    </header>
+
+    <section class="info">
+      <div><span>Grupo</span><strong>15150102 :: SIN-S-MA-1-14 VAN20 (MA - MATUTINO)</strong></div>
+      <div><span>Aula</span><strong>AULA-14B-201</strong></div>
+    </section>
+
+    <section class="next-card">
+      <div class="next-icon">⏰</div>
+      <div>
+        <p>PRÓXIMA CLASE</p>
+        <h2 id="nextClass">Calculando...</h2>
+        <span id="nextDetails">--</span>
+      </div>
+      <div class="countdown" id="countdown">--:--:--</div>
+    </section>
+
+    <main class="schedule-wrap">
+      <div class="schedule" id="schedule">
+        <div class="corner">HORA</div>
+        <div class="day">LUNES</div>
+        <div class="day">MARTES</div>
+        <div class="day">MIÉRCOLES</div>
+        <div class="day">JUEVES</div>
+        <div class="day">VIERNES</div>
+        <div class="day">SÁBADO</div>
+        <div class="day">DOMINGO</div>
+      </div>
+    </main>
+
+    <section class="legend">
+      <h3>Materias</h3>
+      <div id="legendItems"></div>
+    </section>
+
+    <footer>
+      <span>Grupo 15150102</span>
+      <span>•</span>
+      <span>AULA-14B-201</span>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
