@@ -65,7 +65,7 @@ const classes = [
   {
     id: 7,
     name: "Democracia",
-    teacher: "MARTINEZ GARCIA ENRIQUE AUGUSTO",
+    teacher: "Martinez Garcia Enrique Augusto",
     day: 1, start: "11:00", end: "13:00",
     room: "AULA-14B-201", color: "subject-7"
   }
