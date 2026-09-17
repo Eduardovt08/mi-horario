@@ -34,18 +34,18 @@ const classes = [
     day: 2, start: "11:00", end: "13:00",
     room: "AULA-14B-201", color: "subject-4"
   },
-  {
+    {
     id: 5,
     name:"Fundamentos de programación",
     teacher: "Gonzalez Mendoza Otto Rodrigo",
-    day: 2, start: "07:00", end: "09:00",
+    day:2 , start: "07:00", end: "09:00",
     room: "Labcomputo-14C-204", color: "subject-5"
   },
   {
     id: 5,
     name:"Fundamentos de programación",
     teacher: "Gonzalez Mendoza Otto Rodrigo",
-    day: 3, start: "07:00", end: "09:00",
+    day:3 , start: "07:00", end: "09:00",
     room: "Labcomputo-14C-204", color: "subject-5"
   },
   {
@@ -59,7 +59,14 @@ const classes = [
     id: 6,
     name: "Herramientas digitales",
     teacher: "Vera Mendez Priscila Bethsabe",
-    day: 1, start: "07:00", end: "11:00",
+    day: 5, start: "07:00", end: "11:00",
+    room: "Virtual", color: "subject-6"
+  },
+  {
+    id: 7,
+    name: "Democracia",
+    teacher: "Vera Mendez Priscila Bethsabe",
+    day: 1, start: "11:00", end: "13:00",
     room: "Virtual", color: "subject-6"
   }
 ];
