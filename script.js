@@ -65,9 +65,9 @@ const classes = [
   {
     id: 7,
     name: "Democracia",
-    teacher: "Vera Mendez Priscila Bethsabe",
+    teacher: "MARTINEZ GARCIA ENRIQUE AUGUSTO",
     day: 1, start: "11:00", end: "13:00",
-    room: "Virtual", color: "subject-6"
+    room: "AULA-14B-201", color: "subject-7"
   }
 ];
 
