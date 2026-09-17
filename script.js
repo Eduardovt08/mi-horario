@@ -184,7 +184,6 @@ function updateNextClass() {
     if (c.day === today) {
       diff = minutes(c.start) - currentMinutes;
 
-      // Si la clase de hoy ya terminó, ignorarla
       if (diff < 0) return;
     } else {
       diff =
@@ -199,7 +198,6 @@ function updateNextClass() {
     }
   });
 
-  // Si ya no quedan clases esta semana, buscar la primera de la siguiente
   if (!next) {
     next = classes
       .slice()
@@ -223,7 +221,6 @@ function updateNextClass() {
   const [hours, mins] = next.start.split(":").map(Number);
   nextDate.setHours(hours, mins, 0, 0);
 
-  // Si la clase ya pasó hoy, llevarla a la próxima semana
   if (nextDate <= now) {
     nextDate.setDate(nextDate.getDate() + 7);
   }
